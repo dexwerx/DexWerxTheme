@@ -1,0 +1,189 @@
+{
+	"name": "monokai-grayjack",
+	"displayName": "GrayJack Themes",
+	"description": "My personal take on classic/famous themes",
+	"publisher": "GrayJack",
+	"version": "1.5.0",
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GrayJack/grayjack-vscode-themes"
+	},
+	"engines": {
+		"vscode": "^1.45.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"ariake",
+		"color",
+		"theme",
+		"dark",
+		"light",
+		"one",
+		"one dark",
+		"onedark",
+		"catppuccin",
+		"monokai",
+		"nord",
+		"pastel",
+		"solarized",
+		"tokyo",
+		"tokyo night",
+		"gruvbox",
+		"dracula"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "GrayJack's Ariake",
+				"uiTheme": "vs-dark",
+				"path": "./themes/GrayJack's Ariake.json"
+			},
+			{
+				"label": "GrayJack's Catppuccin Frappé",
+				"uiTheme": "vs-dark",
+				"path": "./themes/GrayJack's Catppuccin Frappé.json"
+			},
+			{
+				"label": "GrayJack's Catppuccin Latte",
+				"uiTheme": "vs",
+				"path": "./themes/GrayJack's Catppuccin Latte.json"
+			},
+			{
+				"label": "GrayJack's Catppuccin Macchiatto",
+				"uiTheme": "vs-dark",
+				"path": "./themes/GrayJack's Catppuccin Macchiatto.json"
+			},
+			{
+				"label": "GrayJack's Catppuccin Mocha",
+				"uiTheme": "vs-dark",
+				"path": "./themes/GrayJack's Catppuccin Mocha.json"
+			},
+			{
+				"label": "GrayJack's Dracula",
+				"uiTheme": "vs-dark",
+				"path": "./themes/GrayJack's Dracula.json"
+			},
+			{
+				"label": "GrayJack's Dracula (Pastel)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/GrayJack's Dracula (Pastel).json"
+			},
+			{
+				"label": "CosmicGirl's Dracula (Pastel)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/CosmicGirl's Dracula (Pastel).json"
+			},
+			{
+				"label": "CosmicGirl's Dracula (Neon)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/CosmicGirl's Dracula (Neon).json"
+			},
+			{
+				"label": "GrayJack's Gruvbox Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/GrayJack's Gruvbox Dark.json"
+			},
+			{
+				"label": "GrayJack's Gruvbox Light",
+				"uiTheme": "vs",
+				"path": "./themes/GrayJack's Gruvbox Light.json"
+			},
+			{
+				"label": "GrayJack's Monokai (Classic)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/GrayJack's Monokai (Classic).json"
+			},
+			{
+				"label": "GrayJack's Monokai (Pastel)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/GrayJack's Monokai (Pastel).json"
+			},
+			{
+				"label": "GrayJack's Monokai (Solarized)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/GrayJack's Monokai (Solarized).json"
+			},
+			{
+				"label": "GrayJack's Monokai (Lunarized)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/GrayJack's Monokai (Lunarized).json"
+			},
+			{
+				"label": "GrayJack's Nord",
+				"uiTheme": "vs-dark",
+				"path": "./themes/GrayJack's Nord.json"
+			},
+			{
+				"label": "GrayJack's OneDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/GrayJack's OneDark.json"
+			},
+			{
+				"label": "GrayJack's Remedy Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/GrayJack's Remedy Dark.json"
+			},
+			{
+				"label": "GrayJack's Remedy Light",
+				"uiTheme": "vs",
+				"path": "./themes/GrayJack's Remedy Light.json"
+			},
+			{
+				"label": "GrayJack's Tokyo Night",
+				"uiTheme": "vs-dark",
+				"path": "./themes/GrayJack's Tokyo Night.json"
+			},
+			{
+				"label": "Legacy GrayJack's Monokai (Classic)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/legacy/Monokai GrayJack.json"
+			},
+			{
+				"label": "Legacy GrayJack's Monokai (Pastel)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/legacy/Monokai Grayjack (Pastel).json"
+			},
+			{
+				"label": "Legacy GrayJack's Monokai (Solarized)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/legacy/Monokai GrayJack (Solarized).json"
+			},
+			{
+				"label": "Legacy GrayJack's OneDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/legacy/OneDark GrayJack.json"
+			},
+			{
+				"label": "Legacy GrayJack's Ariake",
+				"uiTheme": "vs-dark",
+				"path": "./themes/legacy/Ariake Grayjack.json"
+			},
+			{
+				"label": "Legacy GrayJack's Tokyo Night",
+				"uiTheme": "vs-dark",
+				"path": "./themes/legacy/Tokyo Night Grayjack.json"
+			},
+			{
+				"label": "Legacy GrayJack's Nord",
+				"uiTheme": "vs-dark",
+				"path": "./themes/legacy/Nord Grayjack.json"
+			},
+			{
+				"label": "WARNING",
+				"uiTheme": "vs-dark",
+				"path": "./themes/WARNING.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "ca7999ed-d374-423b-be37-ddad6160f334",
+		"publisherId": "d9e1a333-9f72-4866-8919-0f9c9ea2680a",
+		"publisherDisplayName": "GrayJack",
+		"installedTimestamp": 1765304119601,
+		"targetPlatform": "undefined",
+		"size": 1728294
+	}
+}
