@@ -1,0 +1,182 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "alwaysShowTabs": true,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "antialiasingMode": "cleartype",
+            "colorScheme": "One Half Dex",
+            "cursorShape": "vintage",
+            "experimental.retroTerminalEffect": false,
+            "font": 
+            {
+                "cellHeight": "1.2",
+                "face": "Consolas",
+                "size": 10
+            },
+            "opacity": 34,
+            "padding": "8,4,4,4",
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell",
+                "tabTitle": "PowerShell"
+            },
+            {
+                "background": "#0E1729",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "icon": "C:\\Windows\\System32\\cmd.exe",
+                "name": "Command Prompt",
+                "tabTitle": "CMD"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{58712626-2e5a-5a57-84a9-6463a788704c}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2017",
+                "source": "Windows.Terminal.VisualStudio"
+            }
+        ]
+    },
+    "rendering.graphicsAPI": "direct3d11",
+    "schemes": 
+    [
+        {
+            "background": "#1F2430",
+            "black": "#191E2A",
+            "blue": "#6DCBFA",
+            "brightBlack": "#686868",
+            "brightBlue": "#73D0FF",
+            "brightCyan": "#95E6CB",
+            "brightGreen": "#BAE67E",
+            "brightPurple": "#D4BFFF",
+            "brightRed": "#F28779",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFD580",
+            "cursorColor": "#FFCC66",
+            "cyan": "#90E1C6",
+            "foreground": "#CBCCC6",
+            "green": "#A6CC70",
+            "name": "Ayu Mirage",
+            "purple": "#CFBAFA",
+            "red": "#ED8274",
+            "selectionBackground": "#33415E",
+            "white": "#C7C7C7",
+            "yellow": "#FAD07B"
+        },
+        {
+            "background": "#121D3D",
+            "black": "#17141F",
+            "blue": "#1BB3CC",
+            "brightBlack": "#495162",
+            "brightBlue": "#BCF3FF",
+            "brightCyan": "#5DFFE5",
+            "brightGreen": "#7BC383",
+            "brightPurple": "#EB23E2",
+            "brightRed": "#FE7E7E",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#F9E46B",
+            "cursorColor": "#99CDE0",
+            "cyan": "#28C29E",
+            "foreground": "#CCCCCC",
+            "green": "#00BD9C",
+            "name": "Banana Blueberry",
+            "purple": "#B62DC4",
+            "red": "#FF3B68",
+            "selectionBackground": "#220525",
+            "white": "#D9D9D9",
+            "yellow": "#E6A830"
+        },
+        {
+            "background": "#161C2B",
+            "black": "#141D2B",
+            "blue": "#2E6CFF",
+            "brightBlack": "#767676",
+            "brightBlue": "#5CB2FF",
+            "brightCyan": "#5CECC6",
+            "brightGreen": "#C5F467",
+            "brightPurple": "#CF8DFB",
+            "brightRed": "#FF8484",
+            "brightWhite": "#D5DAFF",
+            "brightYellow": "#FFCC5C",
+            "cursorColor": "#C5D1EB",
+            "cyan": "#2DE2B2",
+            "foreground": "#A4B1CD",
+            "green": "#9FEF00",
+            "name": "Cyber Cube",
+            "purple": "#9F00FF",
+            "red": "#FF3E3E",
+            "selectionBackground": "#C5D1EB",
+            "white": "#D5E0FF",
+            "yellow": "#FFAF00"
+        },
+        {
+            "background": "#1D3257",
+            "black": "#000000",
+            "blue": "#0069E6",
+            "brightBlack": "#7B91AB",
+            "brightBlue": "#38B1E0",
+            "brightCyan": "#73FCE9",
+            "brightGreen": "#99E069",
+            "brightPurple": "#F210C8",
+            "brightRed": "#FF5B5E",
+            "brightWhite": "#F6F9FF",
+            "brightYellow": "#EEFF26",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#00C2B9",
+            "foreground": "#CACDD1",
+            "green": "#25C363",
+            "name": "One Half Dex",
+            "purple": "#8057FF",
+            "red": "#EB3030",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CACDD1",
+            "yellow": "#D6BF27"
+        }
+    ],
+    "showTabsInTitlebar": true,
+    "tabWidthMode": "titleLength",
+    "theme": "system",
+    "themes": [],
+    "useAcrylicInTabRow": false,
+    "warning.multiLinePaste": "never"
+}
